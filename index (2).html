@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/png" href="lady.png">
+<title>Zara & Co. – Trusted Accounting & Bookkeeping</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+  <div id="loader">
+  <div class="loader-logo">Zara <span>&</span> Co.</div>
+</div>
+
+<!-- ── NAV ── -->
+<nav id="navbar">
+  <a href="#" class="logo">Zara <span>&</span> Co.</a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#why-us">Why Us</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="btn-nav">Get Started</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#why-us" onclick="closeMobile()">Why Us</a>
+  <a href="#testimonials" onclick="closeMobile()">Testimonials</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+  <a href="#contact" onclick="closeMobile()" style="color:var(--gold);font-weight:700;">Get Started →</a>
+</div>
+
+<!-- ── HERO ── -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="hero-tag">Trusted Accounting &amp; Bookkeeping</span>
+    <h1>Your Numbers, <em>Our Expertise</em></h1>
+    <p>We help small businesses across Nigeria stay financially healthy with reliable bookkeeping, tax filing, and advisory services.</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">Book a Free Consultation →</a>
+      <a href="#services" class="btn-secondary">Our Services</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-num"><span class="count" data-target="200">0</span><span>+</span></div>
+      <div class="stat-label">Clients Served</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num"><span class="count" data-target="8">0</span></div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num"><span class="count" data-target="98">0</span><span>%</span></div>
+      <div class="stat-label">Client Retention</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVICES ── -->
+<section class="services" id="services">
+  <div class="text-center reveal">
+    <span class="section-tag">What We Do</span>
+    <h2 class="section-title">Services Tailored for Your Business</h2>
+    <p class="section-sub">From daily bookkeeping to strategic advisory, we provide end-to-end financial services for Nigerian SMEs.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal d1">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      </div>
+      <h3>Bookkeeping</h3>
+      <p>Daily, weekly, or monthly bookkeeping to keep your records accurate and up to date.</p>
+    </div>
+    <div class="service-card reveal d2">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+      </div>
+      <h3>Tax Filing &amp; Compliance</h3>
+      <p>We handle your FIRS filings, VAT returns, and ensure full tax compliance.</p>
+    </div>
+    <div class="service-card reveal d3">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      </div>
+      <h3>Payroll Management</h3>
+      <p>Accurate payroll processing, pension remittances, and PAYE computations.</p>
+    </div>
+    <div class="service-card reveal d4">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+      </div>
+      <h3>Financial Advisory</h3>
+      <p>Strategic financial guidance to help your business grow and make smarter decisions.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHY US ── -->
+<section class="why-us" id="why-us">
+  <div class="why-us-inner">
+    <div>
+      <div class="reveal-left">
+        <span class="section-tag">Why Zara &amp; Co.</span>
+        <h2 class="section-title">Built for Nigerian Small Businesses</h2>
+      </div>
+      <div class="why-list" style="margin-top:2.5rem;">
+        <div class="why-item reveal-left d1">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <h4>FIRS Compliant</h4>
+            <p>We ensure your business meets all Nigerian tax obligations.</p>
+          </div>
+        </div>
+        <div class="why-item reveal-left d2">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <h4>Always On Time</h4>
+            <p>Deadlines are sacred — your filings are never late.</p>
+          </div>
+        </div>
+        <div class="why-item reveal-left d3">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div>
+            <h4>Dedicated Team</h4>
+            <p>A personal accountant assigned to understand your business.</p>
+          </div>
+        </div>
+        <div class="why-item reveal-left d4">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div>
+            <h4>Transparent Pricing</h4>
+            <p>No hidden fees. Clear, affordable monthly plans.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reveal-right">
+      <div class="fin-card">
+        <div class="fin-card-header">
+          <h3>Financial Snapshot</h3>
+          <span class="fin-badge">Q4 2025</span>
+        </div>
+        <div class="fin-row">
+          <span class="fin-label">Revenue</span>
+          <span class="fin-value">₦12,450,000 <span class="fin-badge-sm badge-up">+18%</span></span>
+        </div>
+        <div class="fin-row">
+          <span class="fin-label">Expenses</span>
+          <span class="fin-value">₦7,230,000 <span class="fin-badge-sm badge-down">-5%</span></span>
+        </div>
+        <div class="fin-row">
+          <span class="fin-label">Net Profit</span>
+          <span class="fin-value">₦5,220,000 <span class="fin-badge-sm badge-up">+32%</span></span>
+        </div>
+        <div class="fin-row">
+          <span class="fin-label">Tax Saved</span>
+          <span class="fin-value">₦890,000</span>
+        </div>
+        <p class="fin-note">*Sample data from a Zara &amp; Co. managed client</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ── -->
+<section class="testimonials" id="testimonials">
+  <div class="text-center reveal">
+    <span class="section-tag">Testimonials</span>
+    <h2 class="section-title">What Our Clients Say</h2>
+  </div>
+  <div class="testimonials-grid">
+    <div class="testi-card reveal d1">
+      <div class="stars">★★★★★</div>
+      <blockquote>"Zara &amp; Co. transformed our messy books into a clean, organized system. We finally understand where our money goes. They're not just accountants — they're partners in our growth."</blockquote>
+      <div class="testi-author">
+        <div class="avatar">AO</div>
+        <div>
+          <div class="author-name">Adaeze Okonkwo</div>
+          <div class="author-role">CEO, FreshMart Lagos</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card reveal d2">
+      <div class="stars">★★★★★</div>
+      <blockquote>"Since switching to Zara &amp; Co., our tax filings have been seamless. They saved us nearly ₦900k in our first year. I can't recommend them enough for any small business owner."</blockquote>
+      <div class="testi-author">
+        <div class="avatar">EN</div>
+        <div>
+          <div class="author-name">Emeka Nnamdi</div>
+          <div class="author-role">Founder, TechBridge Solutions</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card reveal d3">
+      <div class="stars">★★★★★</div>
+      <blockquote>"As a fashion business owner, numbers aren't my strength. Zara &amp; Co. handles everything — payroll, taxes, advisory — so I can focus on what I love. Absolutely brilliant service."</blockquote>
+      <div class="testi-author">
+        <div class="avatar">FB</div>
+        <div>
+          <div class="author-name">Fatima Bello</div>
+          <div class="author-role">Owner, Bello's Fashion House</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-section" id="contact">
+  <span class="section-tag reveal" style="position:relative;z-index:1;">Get Started Today</span>
+  <h2 class="section-title reveal" style="color:var(--white);position:relative;z-index:1;">Let's Get Your Finances in Order</h2>
+  <p class="section-sub reveal" style="position:relative;z-index:1;">Book a free 30-minute consultation and discover how Zara &amp; Co. can help your business thrive financially.</p>
+  <div class="cta-btns reveal">
+    <a href="tel:+2348012345678" class="btn-primary">Book a Free Consultation →</a>
+    <a href="tel:+2348012345678" class="btn-outline">Call Us: +234 801 234 5678</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="logo">Zara <span>&</span> Co.</a>
+      <p>Professional accounting and bookkeeping services for Nigerian small businesses. Your growth is our business.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span>hello@zaraandco.ng</span>
+      </div>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>+234 801 234 5678</span>
+      </div>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Victoria Island, Lagos, Nigeria</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Zara &amp; Co. All rights reserved.</div>
+</footer>
+  <script src="main.js"></script>
+</body>
+</html>
